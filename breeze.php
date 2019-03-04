@@ -56,7 +56,7 @@ class Breeze {
 
         $header['content'] = $content;
 
-        if(empty($header['content']) || $header['content']==false) {
+        if(empty($header['content']) || $header['content'] == false) {
             return $header['errmsg'];
         }
 
